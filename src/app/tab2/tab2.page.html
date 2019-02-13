@@ -11,23 +11,25 @@
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
       Perspiciatis, doloremque officiis facere,
   </p>
+  <form [formGroup]="createMessageForm" (submit)="createMessage()">
     <ion-item>
       <ion-label position="floating">Votre Nom</ion-label>
-      <ion-input type="text"></ion-input>
+      <ion-input type="text" formControlName="nomEmet"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Votre Prenom</ion-label>
-      <ion-input type="text"></ion-input>
+      <ion-input type="text" formControlName="nomPrenom"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Votre telephone</ion-label>
-      <ion-input type="tel"></ion-input>
+      <ion-input type="tel" formControlName="telephone"></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating">D MMM YYYY H:mm</ion-label>
-      <ion-datetime displayFormat="D MMM YYYY H:mm" min="2019" max="2100"  value="2019-01-17T11:06Z"></ion-datetime>
+      <ion-label position="floating">date et heure du rendez-vous</ion-label>
+      <ion-datetime displayFormat="D MMM YYYY H:mm" min="2019" max="2100"  value="2019-01-17T11:06Z" formControlName="rendDate"></ion-datetime>
     </ion-item>
-    <ion-button expand="full" >Confirmer</ion-button>
-
+    <ion-button expand="full" type="submit" 
+    [disabled]="!createMessageForm.valid">Confirmer</ion-button>
+  </form>
 </ion-content>

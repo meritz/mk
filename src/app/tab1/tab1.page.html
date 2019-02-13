@@ -8,9 +8,9 @@
 
 
 <ion-content class="card-background-page">
-  <ion-card *ngFor="let img of images">
-      <img src="assets/img/{{img}}"/>
-    <div class="card-title">São Paulo</div>
-    <div class="card-subtitle">41 vue</div>
+  <ion-card *ngFor="let img of hairtList" (click)="opendetail(img)" >
+      <img src={{img.firstImage}}/>
+    <div class="card-title">{{img.name}}</div>
+    <div class="card-subtitle">{{img.listing}}</div>
   </ion-card>
 </ion-content>

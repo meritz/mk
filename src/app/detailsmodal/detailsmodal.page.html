@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons expand="full" fill="clear" color="light" (click)="closeModal()">
+          <ion-button slot="start">
+              <ion-icon slot="icon-only" name="undo"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+    <ion-title>{{img.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card *ngFor="let lien of img.description" >
+      <img src={{lien}}/>
+  </ion-card>
+
+</ion-content>
