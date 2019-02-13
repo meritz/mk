@@ -1233,8 +1233,8 @@ var HairtService = /** @class */ (function () {
                 description: [
                     '../../assets/imgs/imag1/IMG-20190210-WA0036.jpg',
                     '../../assets/imgs/imag1/IMG-20190210-WA0037.jpg',
-                    '../../assets/imgs/imag1/IMG-20190210-WA0038.jpg',
-                    '../../assets/imgs/imag1/IMG-20190210-WA0039.jpg',
+                    '../../assets/imgs/imag1/IMG-20190210-WA0046.jpg',
+                    '../../assets/imgs/imag1/IMG-20190210-WA0049.jpg',
                     '../../assets/imgs/imag1/IMG-20190210-WA0040.jpg',
                     '../../assets/imgs/imag1/IMG-20190210-WA0041.jpg',
                     '../../assets/imgs/imag1/IMG-20190210-WA0042.jpg',
