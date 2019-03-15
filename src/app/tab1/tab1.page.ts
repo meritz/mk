@@ -5,6 +5,7 @@ import { Hairt } from '../models/Hairt';
 // import { DetailsPage } from '../details/details.page';
 import { DetailsmodalPage } from '../detailsmodal/detailsmodal.page';
 
+
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',

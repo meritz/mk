@@ -1132,7 +1132,7 @@ var DetailsmodalPageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n      <ion-buttons expand=\"full\" fill=\"clear\" color=\"light\" (click)=\"closeModal()\">\n          <ion-button slot=\"start\">\n              <ion-icon slot=\"icon-only\" name=\"undo\"></ion-icon>\n          </ion-button>\n      </ion-buttons>\n    <ion-title>{{img.name}}</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content class=\"card-background-page\">\n\n  <ion-card *ngFor=\"let lien of img.description\" >\n      <img src={{lien}}/>\n  </ion-card>\n\n</ion-content>\n"
+module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n      <ion-buttons expand=\"full\" fill=\"clear\" color=\"light\" (click)=\"closeModal()\">\r\n          <ion-button slot=\"start\">\r\n              <ion-icon slot=\"icon-only\" name=\"undo\"></ion-icon>\r\n          </ion-button>\r\n      </ion-buttons>\r\n    <ion-title>{{img.name}}</ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n\r\n<ion-content class=\"card-background-page\">\r\n\r\n  <ion-card *ngFor=\"let lien of img.description\" >\r\n      <img src={{lien}}/>\r\n  </ion-card>\r\n\r\n</ion-content>\r\n"
 
 /***/ }),
 

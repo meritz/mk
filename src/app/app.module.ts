@@ -15,6 +15,7 @@ import { environment} from '../environments/environment';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DetailsmodalPageModule } from './detailsmodal/detailsmodal.module';
 
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],

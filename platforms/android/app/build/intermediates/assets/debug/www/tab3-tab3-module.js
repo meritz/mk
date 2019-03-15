@@ -56,7 +56,7 @@ var Tab3PageModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>\r\n      A propos\r\n    </ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n<ion-content padding>\r\n<h1 text-center>MK Coiffure</h1>\r\n<img src=\"../../assets/imgs/imgkossi/IMG-20190210-WA0044.jpg\"/>\r\n<p text-center>\r\n  Lorem ipsum dolor sit, amet consectetur\r\n   adipisicing elit.Corrupti dicta eveniet\r\n    dolor totam natus suscipit laboriosam \r\n</p>\r\n<h6 text-end>kossi </h6>\r\n\r\n</ion-content>\r\n"
+module.exports = "<ion-header>\r\n  <ion-toolbar>\r\n    <ion-title>\r\n      A propos\r\n    </ion-title>\r\n  </ion-toolbar>\r\n</ion-header>\r\n<ion-content padding>\r\n<h1 text-center>MK Coiffure</h1>\r\n<img src=\"../../assets/imgs/imgkossi/IMG-20190210-WA0044.jpg\"/>\r\n<p text-center>\r\n  Je me nomme Houdole kossivi michel dis mk, Suis\r\nmaître coiffeur. J'ai mis cette application pour pouvoir\r\naider tout le monde à bénéficier de main création et de\r\nprendre une réservation de coiffure signer mk. J'espère\r\nque vous allez aimer merci à vous tous.\r\n</p>\r\n<h6 text-end>kossi </h6>\r\n\r\n</ion-content>\r\n"
 
 /***/ }),
 
